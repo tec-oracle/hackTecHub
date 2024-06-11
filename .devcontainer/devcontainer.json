@@ -9,5 +9,12 @@
   },
   "extensions":[
 	"Github.copilot"
-  ]
+  ],
+  "customizations": {
+        "vscode": {
+            "extensions": [
+                "streetsidesoftware.code-spell-checker"
+            ]
+        }
+    }
 }
