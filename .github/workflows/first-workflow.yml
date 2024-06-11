@@ -1,6 +1,8 @@
 name: primer-action
 
 on: 
+    issues:
+        types: [opened]
     workflow_dispatch:
     
 jobs:
