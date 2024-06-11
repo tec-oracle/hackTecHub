@@ -4,14 +4,15 @@ on:
     issues:
         types: [opened]
     workflow_dispatch:
-    
+env:
+  nombre: 'Lander A.'
 jobs:
     job1:
         name: job1
         runs-on: ubuntu-latest
         steps:
         - name: step1
-          run: echo "step1"
+          run: echo ${{nombre}}
         - name: step2
           run: echo "step2"
     job2:
