@@ -6,5 +6,8 @@
       "installBicep": true,
       "version": "latest"
     }
-  }
+  },
+  "extensions":[
+	"Github.copilot"
+  ]
 }
