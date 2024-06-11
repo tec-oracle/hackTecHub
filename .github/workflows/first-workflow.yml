@@ -12,3 +12,12 @@ jobs:
           run: echo "step1"
         - name: step2
           run: echo "step2"
+    job2:
+        name: job2
+        runs-on: ubuntu-latest
+        steps:
+        - name: github-action
+          uses: mscoutermarsh/cowsays-action@master
+          with:
+            text: 'Usando un action'
+            color: 'gray'
